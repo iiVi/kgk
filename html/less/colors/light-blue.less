@@ -1,0 +1,310 @@
+// LESS VARIABLES
+@brand-primary: #428bca;
+@brand-primary-light: lighten(@brand-primary,30%);
+
+@screen-xs-max: 767px;
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Headers */
+
+h3, h4, h5 {
+	color: @brand-primary;
+}
+
+/* Typography */
+a {
+	color: @brand-primary;
+	text-decoration: none;
+}
+
+a:hover {
+	color: @brand-primary;
+	text-decoration: none;
+}
+
+.drop-cap {
+
+	&:first-letter {
+		color: @brand-primary;
+	}	
+
+	&.alt:first-letter {
+		background: @brand-primary;
+	}	
+}
+
+/* Buttons */
+.btn {
+	
+	&.btn-primary {
+		background-color: @brand-primary;
+	}
+}
+
+/* Pagination */
+.pagination {
+
+	> li >a, > li > span {
+		color: @brand-primary;
+	}
+	
+	> .active > a {
+		background-color: @brand-primary;
+		border-color: @brand-primary;
+	}
+}
+
+/* Toggle */
+.toggle {
+	
+	&.active { 
+		
+		> label {
+			background-color: @brand-primary;
+			border-color: @brand-primary;
+		}
+	}
+} 
+
+/* Login Box */
+.form-box {
+	border-top-color: @brand-primary;	
+}
+
+
+/* Meta */
+.meta {
+	
+	a:hover {
+		color: @brand-primary;
+	}
+}
+
+
+/* HEADER STYLES
+-------------------------------------------------- */
+
+header {
+	
+	#top {
+		
+		.contact {	
+			
+			a:hover {
+				color: @brand-primary-light;
+			}
+		}	
+		
+		.follow {
+			
+			a:hover {
+				color: @brand-primary-light;
+			}
+		}
+	}
+	
+	.navbar-wrapper {
+	
+		.navbar-nav {
+
+			> li.active > a, > li:hover > a {
+				color: @brand-primary;
+			}
+		}
+		
+	}	
+}
+
+.marketing {
+
+	span {
+		color: @brand-primary;
+	}
+	
+	a {
+		color: @brand-primary;
+	}
+}	
+
+
+/* GALLERY STYLING
+-------------------------------------------------- */
+.gallery {
+	
+	.img-overlay {
+		background-color: @brand-primary;		
+	}
+}
+
+
+/* SERVICES STYLING
+-------------------------------------------------- */
+
+.line-graph {
+	
+	.graph-item{
+		
+		.progress-bar {
+			background-color: @brand-primary;
+		}
+	}
+}
+
+/*  FEATURED STYLING
+-------------------------------------------------- */
+.featured {
+	
+	&.with-bg {
+		background: 
+			linear-gradient(
+		      fade(@brand-primary, 80%), 
+		      fade(@brand-primary, 80%)
+		    ), 
+			url(../../img/rocky-stars.jpg) center top repeat-y fixed;	
+	}
+}
+
+
+/*  PRICING TABLE STYLING
+-------------------------------------------------- */
+.pricing-table {
+	
+	.feature-ribbon {
+		background-color: @brand-primary;		
+	}
+}
+
+
+/*  PORTFOLIO STYLING
+-------------------------------------------------- */
+
+.portfolio {
+
+	.controls {
+		.btn:active, .btn.active {
+			background-color: @brand-primary;
+		}
+	}	
+}
+
+.portfolio-single {
+	
+	.details {
+		
+		.list-services i {
+			color: @brand-primary;
+		}
+	}
+} 
+
+/*  BLOG STYLING
+-------------------------------------------------- */
+
+.blog {
+	
+	.post-date {
+		
+		.day {
+			color: @brand-primary;
+		}
+		
+		.month {
+			background: @brand-primary;
+		}			
+	}	
+	
+	aside {
+	
+		.twitter li {
+			
+			i {
+				color: @brand-primary;
+			}
+		}
+	}	
+}	
+
+
+/*  FOOTER STYLING
+-------------------------------------------------- */
+footer {
+	
+	.footer-top {
+		
+		.contact-block {
+			
+			li {
+				
+				a:hover {
+					color: @brand-primary-light;
+				}
+			}	
+		}
+		
+		.twitter-block {
+			
+			li {
+				
+				.fa-circle {
+					color: @brand-primary;
+				}
+			}
+		}
+		
+		.newsletter-block {
+			
+			button {
+				
+				&:hover {
+					color: @brand-primary;
+				}
+			}
+		}
+		
+	}
+	
+	.footer-bottom {
+		
+		a:hover {
+			color: @brand-primary-light;
+		}
+	}
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: @screen-sm-min) {
+
+	header {
+	
+		.navbar-wrapper {
+		
+			.navbar-nav {
+				
+				> li.active > a {
+					border-bottom-color: @brand-primary;
+				}
+									
+				.dropdown-menu {
+					
+					border-top-color: @brand-primary;
+					
+					> li > a:hover, > li > a:focus {
+						color: @brand-primary;
+					}
+				}
+			}
+		}	
+	}		
+}
+
+
+

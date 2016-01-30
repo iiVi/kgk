@@ -1,0 +1,136 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Headers */
+h3,
+h4,
+h5 {
+  color: #18ba9b;
+}
+/* Typography */
+a {
+  color: #18ba9b;
+  text-decoration: none;
+}
+a:hover {
+  color: #18ba9b;
+  text-decoration: none;
+}
+.drop-cap:first-letter {
+  color: #18ba9b;
+}
+.drop-cap.alt:first-letter {
+  background: #18ba9b;
+}
+/* Buttons */
+.btn.btn-primary {
+  background-color: #18ba9b;
+}
+/* Pagination */
+.pagination > li > a,
+.pagination > li > span {
+  color: #18ba9b;
+}
+.pagination > .active > a {
+  background-color: #18ba9b;
+  border-color: #18ba9b;
+}
+/* Toggle */
+.toggle.active > label {
+  background-color: #18ba9b;
+  border-color: #18ba9b;
+}
+/* Login Box */
+.form-box {
+  border-top-color: #18ba9b;
+}
+/* Meta */
+.meta a:hover {
+  color: #18ba9b;
+}
+/* HEADER STYLES
+-------------------------------------------------- */
+header #top .contact a:hover {
+  color: #7deed9;
+}
+header #top .follow a:hover {
+  color: #7deed9;
+}
+header .navbar-wrapper .navbar-nav > li.active > a,
+header .navbar-wrapper .navbar-nav > li:hover > a {
+  color: #18ba9b;
+}
+.marketing span {
+  color: #18ba9b;
+}
+.marketing a {
+  color: #18ba9b;
+}
+/* GALLERY STYLING
+-------------------------------------------------- */
+.gallery .img-overlay {
+  background-color: #18ba9b;
+}
+/* SERVICES STYLING
+-------------------------------------------------- */
+.line-graph .graph-item .progress-bar {
+  background-color: #18ba9b;
+}
+/*  FEATURED STYLING
+-------------------------------------------------- */
+.featured.with-bg {
+  background: -webkit-linear-gradient(rgba(24, 186, 155, 0.8), rgba(24, 186, 155, 0.8)), url(../../img/rocky-stars.jpg) center top repeat-y fixed;
+  background: linear-gradient(rgba(24, 186, 155, 0.8), rgba(24, 186, 155, 0.8)), url(../../img/rocky-stars.jpg) center top repeat-y fixed;
+}
+/*  PRICING TABLE STYLING
+-------------------------------------------------- */
+.pricing-table .feature-ribbon {
+  background-color: #18ba9b;
+}
+/*  PORTFOLIO STYLING
+-------------------------------------------------- */
+.portfolio .controls .btn:active,
+.portfolio .controls .btn.active {
+  background-color: #18ba9b;
+}
+.portfolio-single .details .list-services i {
+  color: #18ba9b;
+}
+/*  BLOG STYLING
+-------------------------------------------------- */
+.blog .post-date .day {
+  color: #18ba9b;
+}
+.blog .post-date .month {
+  background: #18ba9b;
+}
+.blog aside .twitter li i {
+  color: #18ba9b;
+}
+/*  FOOTER STYLING
+-------------------------------------------------- */
+footer .footer-top .contact-block li a:hover {
+  color: #7deed9;
+}
+footer .footer-top .twitter-block li .fa-circle {
+  color: #18ba9b;
+}
+footer .footer-top .newsletter-block button:hover {
+  color: #18ba9b;
+}
+footer .footer-bottom a:hover {
+  color: #7deed9;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+  header .navbar-wrapper .navbar-nav > li.active > a {
+    border-bottom-color: #18ba9b;
+  }
+  header .navbar-wrapper .navbar-nav .dropdown-menu {
+    border-top-color: #18ba9b;
+  }
+  header .navbar-wrapper .navbar-nav .dropdown-menu > li > a:hover,
+  header .navbar-wrapper .navbar-nav .dropdown-menu > li > a:focus {
+    color: #18ba9b;
+  }
+}
