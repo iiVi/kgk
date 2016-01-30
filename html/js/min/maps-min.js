@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=new GMaps({el:"#map",lat:33.7863164,lng:-84.3837829,zoomControl:!0,zoomControlOpt:{style:"SMALL",position:"TOP_LEFT"},panControl:!1,streetViewControl:!1,mapTypeControl:!1,overviewMapControl:!1,scrollwheel:!1});o.addMarker({lat:33.7863164,lng:-84.3837829,title:"Our Office"})});
