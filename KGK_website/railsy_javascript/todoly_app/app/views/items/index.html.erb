@@ -1,0 +1,18 @@
+<header>
+	<h1>
+		Todo.ly
+	</h1>
+</header>
+
+<section id='new-item'>
+	<%= form_for @item, remote: :true do |f| -%>
+	  <%= f.label 'What to do?' %>
+	  <%= f.text_field :description %>
+	  <%= f.hidden_field :completed %>
+		<%= f.submit %>
+	<% end -%>
+</section>
+
+<section id='todo-list'>
+	<%= render @items %>
+</section>

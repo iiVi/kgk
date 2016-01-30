@@ -1,0 +1,6 @@
+Item.create(description: 'Buy a toy')
+Item.create(description: 'Buy a boy')
+Item.create(description: 'Buy a Paul')
+Item.create(description: 'Buy a shawl')
+Item.create(description: 'Buy a stoop')
+Item.create(description: 'Buy a poop')
