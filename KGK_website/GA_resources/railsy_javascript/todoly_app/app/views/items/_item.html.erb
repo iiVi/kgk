@@ -1,0 +1,9 @@
+<%= content_tag :div, class: 'item', id: dom_id(item) do %>
+	<p><%= item.description %></p>
+	<%= form_tag("/items/#{item.id}", remote: true, method: :put ) do %>
+		<%= hidden_field_tag 'item[description]', item.description %>
+		<%= hidden_field_tag 'item[completed]', !item.completed %>
+		<%= check_box_tag 'checkbox', nil , !!item.completed , class:'checkbox' %>
+	<% end -%>
+	<%= button_to 'X', item_path(item), method: :delete, remote: true %>
+<% end %>
